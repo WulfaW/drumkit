@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+    }
+
+    #bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+      ;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.6;
+      max-width: 600px;
+      text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#drumkit {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 20px;
+}
+
+.drum {
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.drum.active {
+    filter: brightness(1.6);
+    transform: scale(1.05);
+}
+
+/* Farklı renkler */
+.drum.color-1 { background-color: #e74c3c; }
+.drum.color-2 { background-color: #f39c12; }
+.drum.color-3 { background-color: #f1c40f; }
+.drum.color-4 { background-color: #2ecc71; }
+.drum.color-5 { background-color: #1abc9c; }
+.drum.color-6 { background-color: #3498db; }
+.drum.color-7 { background-color: #9b59b6; }
+.drum.color-8 { background-color: #34495e; }
+.drum.color-9 { background-color: #ecf0f1; }
+

@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #d8b4fe;
+}
+
+/* Paragraph */
+p {
+  margin: 1rem 0;
+}
+
+/* Box */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  padding: 20px;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: #999;
+  font-size: 0.9rem;
+}
+
+/* Button */
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+button:hover {
+  background-color: #444;
+}
